@@ -11,7 +11,7 @@ namespace WindowsFormsBus
     /// </summary>
     public class AutovoksalOverflowException : Exception
     {
-        public AutovoksalOverflowException() : base("На парковке нет свободных мест")
+        public AutovoksalOverflowException() : base("На автовокзале нет свободных мест")
         { }
     }
 

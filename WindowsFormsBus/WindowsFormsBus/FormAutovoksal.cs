@@ -199,7 +199,7 @@ namespace WindowsFormsBus
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Неизвестная ошибка при сохранении",
+                    MessageBox.Show(ex.Message, "Неизвестная ошибка при загрузке",
                    MessageBoxButtons.OK, MessageBoxIcon.Error);
                     logger.Warn($"{ex.Message} Неизвестная ошибка при загрузке");
                 }

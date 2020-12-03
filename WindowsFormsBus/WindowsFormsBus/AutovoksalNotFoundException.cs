@@ -11,7 +11,7 @@ namespace WindowsFormsBus
     /// </summary>
     public class AutovoksalNotFoundException : Exception
     {
-        public AutovoksalNotFoundException(int i) : base("Не найден автомобиль по месту " + i)
+        public AutovoksalNotFoundException(int i) : base("Не найден автобус по месту " + i)
         { }
     }
 }
