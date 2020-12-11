@@ -59,6 +59,7 @@
     <Compile Include="AutovoksalNotFoundException.cs" />
     <Compile Include="AutovoksalOccupiedPlaceException.cs" />
     <Compile Include="AutovoksalOverflowException.cs" />
+    <Compile Include="BusComparer.cs" />
     <Compile Include="BusGarm.cs" />
     <Compile Include="Bus.cs" />
     <Compile Include="Direction.cs" />
@@ -83,6 +84,7 @@
       <DependentUpon>FormBusConfig.cs</DependentUpon>
     </Compile>
     <Compile Include="ITransport.cs" />
+    <Compile Include="AutovoksalAlreadyHaveException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAutovoksal.resx">

@@ -83,21 +83,17 @@ namespace WindowsFormsBus
                 foreach (var level in autovoksalStages)
                 {
                     sw.WriteLine($"Autovoksal{separator}{level.Key}");
-                    ITransport bus = null;
-                    for (int i = 0; (bus = level.Value.GetNext(i)) != null; i++)
+                    foreach (ITransport bus in level.Value)
                     {
-                        if (bus != null)
+                        if (bus.GetType().Name == "Bus")
                         {
-                            if (bus.GetType().Name == "Bus")
-                            {
-                                sw.Write($"Bus{separator}");
-                            }
-                            if (bus.GetType().Name == "BusGarm")
-                            {
-                                sw.Write($"BusGarm{separator}");
-                            }
-                            sw.WriteLine(bus);
+                            sw.Write($"Bus{separator}");
                         }
+                        if (bus.GetType().Name == "BusGarm")
+                        {
+                            sw.Write($"BusGarm{separator}");
+                        }
+                        sw.WriteLine(bus);
                     }
                 }
             }

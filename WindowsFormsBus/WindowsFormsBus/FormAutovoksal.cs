@@ -205,6 +205,16 @@ namespace WindowsFormsBus
                 }
             }
         }
+
+        private void buttonSort_Click(object sender, EventArgs e)
+        {
+            if (listBoxAutovoksal.SelectedIndex > -1)
+            {
+                autovoksalCollection[listBoxAutovoksal.SelectedItem.ToString()].Sort();
+                Draw();
+                logger.Info("Сортировка уровней");
+            }
+        }
     }
 }
 

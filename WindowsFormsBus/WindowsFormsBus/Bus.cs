@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace WindowsFormsBus
 {
-    public class Bus : EasyBus
+    public class Bus : EasyBus, IEquatable<Bus>
     {
         /// <summary>
         /// Ширина отрисовки автобуса
@@ -151,6 +151,45 @@ namespace WindowsFormsBus
         public override string ToString()
         {
             return $"{MaxSpeed}{separator}{Weight}{separator}{MainColor.Name}";
+        }
+        public bool Equals(Bus other)
+        {
+            if (other == null)
+            {
+                return false;
+            }
+            if (GetType().Name != other.GetType().Name)
+            {
+                return false;
+            }
+            if (MaxSpeed != other.MaxSpeed)
+            {
+                return false;
+            }
+            if (Weight != other.Weight)
+            {
+                return false;
+            }
+            if (MainColor != other.MainColor)
+            {
+                return false;
+            }
+            return true;
+        }
+        public override bool Equals(Object obj)
+        {
+            if (obj == null)
+            {
+                return false;
+            }
+            if (!(obj is Bus busObj))
+            {
+                return false;
+            }
+            else
+            {
+                return Equals(busObj);
+            }
         }
     }
 }
