@@ -54,9 +54,9 @@
             // pictureBoxAutovoksal
             // 
             this.pictureBoxAutovoksal.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBoxAutovoksal.Location = new System.Drawing.Point(0, 28);
+            this.pictureBoxAutovoksal.Location = new System.Drawing.Point(0, 30);
             this.pictureBoxAutovoksal.Name = "pictureBoxAutovoksal";
-            this.pictureBoxAutovoksal.Size = new System.Drawing.Size(1141, 573);
+            this.pictureBoxAutovoksal.Size = new System.Drawing.Size(1141, 571);
             this.pictureBoxAutovoksal.TabIndex = 0;
             this.pictureBoxAutovoksal.TabStop = false;
             // 
@@ -161,7 +161,7 @@
             this.файлToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1359, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1359, 30);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -171,7 +171,7 @@
             this.сохранитьToolStripMenuItem,
             this.загрузитьToolStripMenuItem});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(59, 26);
             this.файлToolStripMenuItem.Text = "Файл";
             // 
             // сохранитьToolStripMenuItem

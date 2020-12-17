@@ -175,7 +175,7 @@ namespace WindowsFormsBus
                 return false;
             }
             return true;
-        }
+        } 
         public override bool Equals(Object obj)
         {
             if (obj == null)

@@ -80,6 +80,8 @@
             // checkBoxOs
             // 
             this.checkBoxOs.AutoSize = true;
+            this.checkBoxOs.Checked = true;
+            this.checkBoxOs.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxOs.Location = new System.Drawing.Point(215, 88);
             this.checkBoxOs.Name = "checkBoxOs";
             this.checkBoxOs.Size = new System.Drawing.Size(145, 21);
@@ -90,6 +92,8 @@
             // checkBoxGarm
             // 
             this.checkBoxGarm.AutoSize = true;
+            this.checkBoxGarm.Checked = true;
+            this.checkBoxGarm.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxGarm.Location = new System.Drawing.Point(215, 56);
             this.checkBoxGarm.Name = "checkBoxGarm";
             this.checkBoxGarm.Size = new System.Drawing.Size(97, 21);
@@ -232,7 +236,7 @@
             this.panelBlue.Name = "panelBlue";
             this.panelBlue.Size = new System.Drawing.Size(39, 38);
             this.panelBlue.TabIndex = 1;
-            
+            // 
             // panelDarkViolet
             // 
             this.panelDarkViolet.BackColor = System.Drawing.Color.DarkViolet;
@@ -240,7 +244,6 @@
             this.panelDarkViolet.Name = "panelDarkViolet";
             this.panelDarkViolet.Size = new System.Drawing.Size(39, 38);
             this.panelDarkViolet.TabIndex = 1;
-            
             // 
             // panelPink
             // 
@@ -249,7 +252,6 @@
             this.panelPink.Name = "panelPink";
             this.panelPink.Size = new System.Drawing.Size(39, 38);
             this.panelPink.TabIndex = 1;
-            
             // 
             // panelLightBlue
             // 
@@ -258,7 +260,6 @@
             this.panelLightBlue.Name = "panelLightBlue";
             this.panelLightBlue.Size = new System.Drawing.Size(39, 38);
             this.panelLightBlue.TabIndex = 1;
-            
             // 
             // panelGreen
             // 
@@ -267,7 +268,6 @@
             this.panelGreen.Name = "panelGreen";
             this.panelGreen.Size = new System.Drawing.Size(39, 38);
             this.panelGreen.TabIndex = 1;
-            
             // 
             // panelYellow
             // 
@@ -276,7 +276,6 @@
             this.panelYellow.Name = "panelYellow";
             this.panelYellow.Size = new System.Drawing.Size(39, 38);
             this.panelYellow.TabIndex = 1;
-            
             // 
             // panelDarkOrange
             // 
@@ -285,7 +284,6 @@
             this.panelDarkOrange.Name = "panelDarkOrange";
             this.panelDarkOrange.Size = new System.Drawing.Size(39, 38);
             this.panelDarkOrange.TabIndex = 1;
-            
             // 
             // labelDopColor
             // 
